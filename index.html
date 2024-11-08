@@ -1,0 +1,917 @@
+<html lang="ar" dir="rtl" class=" video supports csstransitions csstransforms3d"><!--yahia mohamed abo hashim--><head>
+    <title>نظام حجز الوحدات السكنية و الاراضى</title>
+
+    
+    <meta charset="UTF-8">
+    <title>نظام حجز الوحدات السكنية</title>
+    <!-- this is header-css -->
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="hdb/static/favicon/apple-touch-icon.png">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="hdb/static/favicon/favicon-32x32.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="hdb/static/favicon/favicon-16x16.png">
+
+    <link rel="manifest" href="hdb/static/favicon/manifest.json">
+
+    <link rel="mask-icon" href="hdb/static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+    <link rel="shortcut icon" href="hdb/static/favicon/favicon.ico">
+
+    <meta name="msapplication-config" content="/hdb/static/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- mobile settings -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+    <!--[if IE]>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+    <!-- WEB FONTS : use %7C instead of | (pipe) -->
+    <link href="https://fonts.googleapis.com/css?family=Cairo:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>-->
+
+    <!-- CORE CSS -->
+    <!--<link th:href="@{/static/assets/plugins/bootstrap/css/bootstrap.min.css}" href="/static/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />-->
+
+    <!-- THEME CSS -->
+    <link href="hdb/static/assets/css/essentials.min.css" rel="stylesheet" type="text/css">
+    <link href="hdb/static/assets/css/layout.min.css" rel="stylesheet" type="text/css">
+
+    <link href="hdb/static/assets/css/color_scheme/green.min.css" rel="stylesheet" type="text/css" id="color_scheme">
+
+    <!-- RTL Support  -->
+    <link href="hdb/static/assets/plugins/bootstrap/RTL/bootstrap-rtl-merged.min.css" rel="stylesheet" type="text/css">
+    <link href="hdb/static/assets/css/layout-RTL.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <link href="hdb/static/assets/css/header-1.css" rel="stylesheet" type="text/css">
+    <link href="hdb/static/css/custom.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+
+<body class="smoothscroll enable-animation" dir="rtl" style="padding-top: 0px;">
+
+<div>
+
+    <div id="wrapper">
+        <div id="header" class="navbar-toggleable-md sticky clearfix">
+            <!-- TOP NAV -->
+            <header id="topNav">
+                <div class="container">
+                    
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- BUTTONS -->
+                    <ul class="float-right nav nav-pills nav-second-main">
+
+
+                    </ul>
+                    <!-- /BUTTONS -->
+
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                        <!-- Logo -->
+                            <a class="logo float-left " href="http://web.hdb-egy.com/index.php/ar">
+                                <img class="img-fluid" src="hdb/static/images/logo.png" alt=""> <!-- light logo -->
+                                <img class="img-fluid" src="hdb/static/images/logo.png" alt=""> <!-- dark logo -->
+                            </a>
+                        </div>
+
+                        <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 text-center" style="padding-top: 2%;">
+                            <!--<span id="clock">Date and Time</span>-->
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                            <a class="logo float-right" href="http://www.newcities.gov.eg/housing-units/default.aspx">
+                                <img class="img-fluid" src="hdb/static/images/UrbanCommunitiesAuthority.png" alt="" style="float: left;"> <!-- light logo -->
+                                <img class="img-fluid" src="hdb/static/images/UrbanCommunitiesAuthority.png" alt="" style="float: left;"> <!-- dark logo -->
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                        </div>
+
+                        <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 text-center" style="padding-top: 2%;">
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                            <span id="clock" class="float-left">الأربعاء 06 نوفمبر  2024   -   7:08:06 م</span>
+                        </div>
+                    </div>
+
+
+                    <!--
+                        Top Nav
+
+                        AVAILABLE CLASSES:
+                        submenu-dark = dark sub menu
+                    -->
+                    <div class="navbar-collapse collapse float-left nav-main-collapse submenu-dark">
+                        <nav class="nav-main">
+
+                            <ul id="topMain" class="nav nav-pills nav-main">
+
+                                <li class="active">
+                                    <!-- HOME -->
+                                    <a class="fs-15" href="/hdb/">الرئيسية</a>
+                                </li>
+                                <li class="active"><!-- BLOG and SHOP -->
+                                    <a class="fs-15" href="/hdb/#projects">المشاريع</a>
+                                </li>
+                                
+                                
+                                <li class="active">
+                                    <a href="/hdb/faq" class="fs-15">الأسئلة الشائعة</a>
+                                </li>
+                                <li class="active">
+                                    <a href="/hdb/about" class="fs-15">عن الموقع</a>
+                                </li>
+
+                                <!--<li class="active">
+                                    <a href="#" class="fs-15" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    </a>
+                                </li>-->
+                                <!--<li class="active" sec:authorize="isAuthenticated()">
+                                    <a th:href="@{/edit}" href="/logout" class="fs-15"
+                                       th:text="#{header.menu.edit}">تعديل مستخدم</a>
+                                </li>-->
+                                
+                                <li class="active">
+                                    <a href="/hdb/register" class="fs-15">تسجيل مستخدم جديد</a>
+                                </li>
+                                <li class="active">
+                                    <a href="/hdb/login" class="fs-15">دخول مستخدم حالي</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <!--<div class="navbar-collapse collapse nav-main-collapse submenu-dark" style="float: right;">
+                        <nav class="nav-main">
+
+                            <ul id="topMain" class="nav nav-pills nav-main">
+                                <li class="active">
+                                    &lt;!&ndash; HOME &ndash;&gt;
+                                    <a th:href="@{/}" href="/" th:text="#{header.menu.mainmenu}"></a>
+                                </li>
+                                <li class="active">&lt;!&ndash; BLOG and SHOP &ndash;&gt;
+                                    <a th:href="@{/#projects}" href="/" th:text="#{header.menu.projects}"></a>
+                                </li>
+                                <li class="active">
+                                    &lt;!&ndash; HOME &ndash;&gt;
+                                    <a th:href="@{/about}" href="/" th:text="#{header.menu.about}"></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>-->
+
+                </div>
+            </header>
+            <!-- /Top Nav -->
+
+        </div>
+    </div>
+
+    <!-- Current date time -->
+    <!--<script type="text/javascript" th:inline="javascript">
+        var t = new Date();
+        function clock() {
+
+            var str = "";
+            var currentDateTime =/*06 نوفمبر 2024 - 07:06:22.498 م*/;
+
+            str = currentDateTime;
+            document.getElementById("clock").innerHTML = str;
+
+            window.setTimeout("clock()", 1000);
+        }
+        clock();
+    </script>-->
+
+    <script type="text/javascript">
+        /*Get current date and time with arabic format -yahia.abohashim */
+
+        var pool="";
+        var daysArray=new Array("الأحد","الاثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت");
+        var monthsArray=new Array("يناير","فبراير","مارس","ابريل","مايو","يونيو","يوليو","أغسطس","سبتمبر","أكتوبر","نوفمبر","ديسمبر");
+        var t = new Date();
+        var status = "ص";
+
+        var refresh = "0";
+        var originaloffset = new Date().getTimezoneOffset();
+
+
+        function clock() {
+
+            //check timezone
+            var offset = t.getTimezoneOffset();
+            if(isTimeZoneChanged()){
+                pool = "0";
+            }
+        // Load first time from server...
+            if(pool!="1"){
+                t.setDate(6);
+                t.setMonth(10);
+                t.setFullYear(2024);
+                t.setHours(19);
+                t.setMinutes(6);
+                t.setSeconds(22);
+                pool="1";
+            }
+
+
+            t.setSeconds(t.getSeconds()+1);
+            var date = t.getDate();
+            var month = t.getMonth();
+            var day = t.getDay();
+            var hour = t.getHours();
+            var min = t.getMinutes();
+            var sec = t.getSeconds();
+            var year = t.getFullYear();
+            if (date<=9)  		date='0'+date;
+            if (hour>=12)		status="م";
+            if (hour>12)		hour = hour-12;
+            if (hour==0)		hour = 12;
+            if (hour<=0)		hour = '0'+hour;
+            if (min<=9)			min='0'+min;
+            if (sec<=9)			sec='0'+sec;
+
+            //document.getElementById("dateTime").value = daysArray[t.getDay()] + " " + monthsArray[t.getMonth()] + ", " + date + "   " + t.getYear()+"      "+ hour + ":" + min + ":" + sec + " " + status;
+            document.getElementById("clock").innerHTML = daysArray[day] + " " +date+" "+ monthsArray[month] + "  " + year+"   -   "+ hour + ":" + min + ":" + sec + " " + status;
+            //document.getElementById("clock2").innerHTML = /*"06 \u0646\u0648\u0641\u0645\u0628\u0631 2024 - 07:06:22.499 \u0645"*/;
+            window.setTimeout("clock()", 950);
+        }
+        clock();
+
+        function isTimeZoneChanged()
+        {
+            var copyOriginal = new Date().getTimezoneOffset();
+
+            if(originaloffset != copyOriginal)
+            {
+                originaloffset = new Date().getTimezoneOffset();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    </script>
+
+</div>
+
+<div id="wrapper">
+
+    <section class="page-header page-header-xlg b-0 dark" data-background-delay="5000" data-background-fade="1000" data-background="page3/hdb/static/images/homegal-1.jpg" style="position: relative; z-index: 0; background-image: none;">
+
+        <span class="overlay dark-4"><!-- dark overlay [1 to 9 opacity] --></span>
+        <div class="container">
+
+            <h2 class="fs-40 fw-300 mb-1">مرحبا بكم في موقع بنك التعمير والاسكان</h2>
+            <h2 class="fs-40 fw-300 mb-1">لحجز الوحدات والاراضي المملوكة لهيئة</h2>
+            <h2 class="fs-40 fw-300 mb-1">المجتمعات العمرانية الجديدة</h2>
+            <!--<h2 class="fs-40 fw-300 mb-1" th:text="#{hmoe.text.two}">هيئة المجتمعات العمرانية الجديدة</h2>
+            <h2 class="fs-20 fw-100 mb-1" th:text="#{hmoe.text.three}">بالتعاون مع </h2>
+            <h2 class="fs-40 fw-300 mb-1" th:text="#{hmoe.text.four}">بنك التعمير والإسكان </h2>
+            <h2 class="fs-20 fw-100 mb-1" th:text="#{hmoe.text.five}"> تحت رعاية </h2>
+            <h2 class="fs-40 fw-300 mb-1" th:text="#{hmoe.text.six}">وزارة الإسكان و المرافق و التنمية العمرانية</h2>-->
+        </div>
+        <div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 443px; width: 1032px; z-index: -999998; position: absolute;">
+            
+        <div class="backstretch-item" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 100%; height: 100%; z-index: -999999;"><img alt="" src="/hdb/static/images/homegal-1.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1257.68px; height: 443px; max-width: none; inset: 0px auto auto -112.838px;"></div></div>
+    </section>
+
+    <section class="page-header page-header-xs">
+        <div class="container">
+            <h1>المشاريع المتاحة</h1>
+        </div>
+    </section>
+
+    <section id="projects">
+
+        <div class="container">
+
+
+            <div class="portfolio-gutter" href="displayProjects">
+                <ul class="nav nav-pills mb-60">
+                    <li class="active"><a href="/hdb/#projects">كل المشاريع</a></li>
+                    <li><a href="/hdb/?type=1#projects">وحدات سكنية</a></li>
+                    <li><a href="/hdb/?type=2#projects">أراضي</a></li>
+                </ul>
+                
+                
+            </div>
+
+            <div id="projectsDiv" class="mix-grid">
+
+                
+                
+
+                <div>
+                    <br>
+                    <div class="row mix mix_all" style="display: block;  opacity: 1;"><!-- item -->
+                        <div class="col-md-7"><!-- image -->
+                            <div class="item-box">
+                                <figure>
+                                <span class="item-hover">
+                                    <span class="overlay dark-5"></span>
+                                    <span class="inner">
+                                        <!-- lightbox -->
+                                        <!--<a class="ico-rounded lightbox"-->
+                                        <!--th:href="@{/static/demo_files/images/mockups/1200x800/15-min.jpg}"-->
+                                        <!--href="/static/demo_files/images/mockups/1200x800/15-min.jpg"-->
+                                        <!--data-plugin-options='{"type":"image"}'>-->
+                                        <!--<span class="fa fa-plus fs-20"></span>-->
+                                        <!--</a>-->
+
+                                        <!-- details -->
+                                        <!--a class="ico-rounded" href="#">
+                                            <span class="glyphicon glyphicon-option-horizontal fs-20"></span>
+                                        </a-->
+
+                                    </span>
+                                </span>
+                                    <!--<img class="img-fluid" src="demo_files/images/mockups/800x553/15-min.jpg" width="800" height="533" alt="">-->
+                                    <!-- carousel -->
+                                    <div class="owl-carousel buttons-autohide controlls-over m-0 owl-theme owl-carousel-init" data-plugin-options="{&quot;singleItem&quot;: true, &quot;autoPlay&quot;: 4000, &quot;navigation&quot;: false, &quot;pagination&quot;: true, &quot;transitionStyle&quot;:&quot;fadeUp&quot;}" style="opacity: 1; display: block;">
+
+                                        <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 1060px; left: 0px; display: block; transition: all; transform: translate3d(0px, 0px, 0px); transform-origin: 265px center; perspective-origin: 265px center;"><div class="owl-item" style="width: 530px;"><div>
+                                            <img class="img-fluid" src="hdb/project/112image1res/600x400" width="800" height="533" alt="">
+                                        </div></div></div></div>
+                                    <div class="owl-controls clickable" style="display: none;"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div></div></div></div>
+                                    <!-- /carousel -->
+                                </figure>
+                            </div>
+                        </div><!-- /image -->
+
+                        <div class="col-md-5"><!-- description -->
+                            <h2>
+                                <a href="/hdb/project/112/details">مشروع صبا للعاملين ببنك التعمير والإسكان بمساحات تتراوح بين (95 وحتي 141) م2</a>
+                            </h2>
+                            <a href="/hdb/displayProjects?type=1#projects">وحدات سكنية</a>
+
+                            <div class="mt-30"><!-- description -->
+
+                                <p>وحدات كاملة التشطيب بعدد (48) وحدة سكنية بمشروع صبا ريزيدنس بمساحات تتراوح بين (95 وحتي141)م2 وبنموذج معماري مميز.</p>
+
+                                <ul class="portfolio-detail-list list-unstyled m-0">
+                                    <!--<li><span><i class="fa fa-user"></i>Author:</span> Smarty Inc.</li>-->
+
+                                    <li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span>تاريخ فتح باب التقدم:</span>
+                                        <span>05 نوفمبر 2024</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span>تاريخ نهاية الحجز :</span>
+                                        <span>14 نوفمبر 2024</span>
+                                    </li>
+                                    <!--<li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span th:text="#{home.project.end.date}">ميعاد الطرح :</span>
+                                        <span th:text="${#temporals.format(project.publishEndDate, 'dd MMMM yyyy','ar' )}"></span>
+                                    </li>-->
+                                </ul>
+                                <br>
+                                <a href="/hdb/project/113/bidReq" class="btn btn-teal btn-lg fs-17" target="_bidReq"> رسوم كراسة الشروط 1000ج.م</a>
+                                <a style="margin-right: 20px;" href="/hdb/project/112/details" class="btn btn-primary btn-lg fs-17">أرغب في التقدم</a>
+                                <a style="margin-right: 20px;" href="/hdb/project/112/details" class="btn btn-primary btn-lg fs-17"> اتصالات كاش<br>01149288201 </a>
+                                <div>
+                                    <from>
+                                        <label for="username">رقم الذي تم تحويل منه:</label><br>
+                                  <input style="margin-right: 20px; type="text" id="username" name="username"><br>
+                                  <label for="pwd">المبلغ المطلوب دفعه:</label><br>
+                                  <input type="password" id="pwd" name="pwd"><BR>
+                                    <button type="button" name="ارسال">ارسال
+                                    </from>
+                                </div>
+                                
+                            </div>
+
+                        </div><!-- /description -->
+
+                    </div><!-- /item -->
+
+                </div>
+                
+
+                <div>
+                    <br>
+                    <div class="row mix mix_all" style="display: block;  opacity: 1;"><!-- item -->
+                        <div class="col-md-7"><!-- image -->
+                            <div class="item-box">
+                                <figure>
+                                <span class="item-hover">
+                                    <span class="overlay dark-5"></span>
+                                    <span class="inner">
+                                        <!-- lightbox -->
+                                        <!--<a class="ico-rounded lightbox"-->
+                                        <!--th:href="@{/static/demo_files/images/mockups/1200x800/15-min.jpg}"-->
+                                        <!--href="/static/demo_files/images/mockups/1200x800/15-min.jpg"-->
+                                        <!--data-plugin-options='{"type":"image"}'>-->
+                                        <!--<span class="fa fa-plus fs-20"></span>-->
+                                        <!--</a>-->
+
+                                        <!-- details -->
+                                        <!--a class="ico-rounded" href="#">
+                                            <span class="glyphicon glyphicon-option-horizontal fs-20"></span>
+                                        </a-->
+
+                                    </span>
+                                </span>
+                                    <!--<img class="img-fluid" src="demo_files/images/mockups/800x553/15-min.jpg" width="800" height="533" alt="">-->
+                                    <!-- carousel -->
+                                    <div class="owl-carousel buttons-autohide controlls-over m-0 owl-theme owl-carousel-init" data-plugin-options="{&quot;singleItem&quot;: true, &quot;autoPlay&quot;: 4000, &quot;navigation&quot;: false, &quot;pagination&quot;: true, &quot;transitionStyle&quot;:&quot;fadeUp&quot;}" style="opacity: 1; display: block;">
+
+                                        <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 1060px; left: 0px; display: block; transition: all; transform: translate3d(0px, 0px, 0px); transform-origin: 265px center; perspective-origin: 265px center;"><div class="owl-item" style="width: 530px;"><div>
+                                            <img class="img-fluid" src="hdb/project/113image1res/600x400" width="800" height="533" alt="">
+                                        </div></div></div></div>
+                                    <div class="owl-controls clickable" style="display: none;"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div></div></div></div>
+                                    <!-- /carousel -->
+                                </figure>
+                            </div>
+                        </div><!-- /image -->
+
+                        <div class="col-md-5"><!-- description -->
+                            <h2>
+                                <a href="/hdb/project/113/details">مشروع العاصمة الإدارية الجديدة للعاملين ببنك التعمير والإسكان بمساحات (114-122-130)م2</a>
+                            </h2>
+                            <a href="/hdb/displayProjects?type=1#projects">وحدات سكنية</a>
+
+                            <div class="mt-30"><!-- description -->
+
+                                <p>وحدات كاملة التشطيب بعدد (74) وحدة سكنية بالعاصمة الإدارية الجديدة بالحى R3 كابيتال ريزيدانس بمساحات (114-122-130)م2 وبنموذج معماري مميز</p>
+
+                                <ul class="portfolio-detail-list list-unstyled m-0">
+                                    <!--<li><span><i class="fa fa-user"></i>Author:</span> Smarty Inc.</li>-->
+
+                                    <li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span>تاريخ فتح باب التقدم:</span>
+                                        <span>05 نوفمبر 2024</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span>تاريخ نهاية الحجز :</span>
+                                        <span>14 نوفمبر 2024</span>
+                                    </li>
+                                    <!--<li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span th:text="#{home.project.end.date}">ميعاد الطرح :</span>
+                                        <span th:text="${#temporals.format(project.publishEndDate, 'dd MMMM yyyy','ar' )}"></span>
+                                    </li>-->
+                                </ul>
+                                <br>
+                                <a href="/hdb/project/113/bidReq" class="btn btn-teal btn-lg fs-17" target="_bidReq"> رسوم كراسة الشروط 1000ج.م</a>
+                                <a style="margin-right: 20px;" href="/hdb/project/113/details" class="btn btn-primary btn-lg fs-17">أرغب في التقدم</a>
+                                <a style="margin-right: 20px;" href="/hdb/project/113/details" class="btn btn-primary btn-lg fs-17">اتصالات كاش<br>01149288201</a>
+                            </div>
+                            <div>
+                                <from>
+                                    <label for="username">رقم الذي تم تحويل منه:</label><br>
+                              <input style="margin-right: 20px; type="text" id="username" name="username"><br>
+                              <label for="pwd">المبلغ المطلوب دفعه:</label><br>
+                              <input type="password" id="pwd" name="pwd"><BR>
+                                <button type="button" name="ارسال">ارسال
+                                </from>
+                            </div>
+
+                        </div><!-- /description -->
+
+                    </div><!-- /item -->
+
+                </div>
+                
+
+                <div>
+                    <br>
+                    <div class="row mix mix_all" style="display: block;  opacity: 1;"><!-- item -->
+                        <div class="col-md-7"><!-- image -->
+                            <div class="item-box">
+                                <figure>
+                                <span class="item-hover">
+                                    <span class="overlay dark-5"></span>
+                                    <span class="inner">
+                                        <!-- lightbox -->
+                                        <!--<a class="ico-rounded lightbox"-->
+                                        <!--th:href="@{/static/demo_files/images/mockups/1200x800/15-min.jpg}"-->
+                                        <!--href="/static/demo_files/images/mockups/1200x800/15-min.jpg"-->
+                                        <!--data-plugin-options='{"type":"image"}'>-->
+                                        <!--<span class="fa fa-plus fs-20"></span>-->
+                                        <!--</a>-->
+
+                                        <!-- details -->
+                                        <!--a class="ico-rounded" href="#">
+                                            <span class="glyphicon glyphicon-option-horizontal fs-20"></span>
+                                        </a-->
+
+                                    </span>
+                                </span>
+                                    <!--<img class="img-fluid" src="demo_files/images/mockups/800x553/15-min.jpg" width="800" height="533" alt="">-->
+                                    <!-- carousel -->
+                                    <div class="owl-carousel buttons-autohide controlls-over m-0 owl-theme owl-carousel-init" data-plugin-options="{&quot;singleItem&quot;: true, &quot;autoPlay&quot;: 4000, &quot;navigation&quot;: false, &quot;pagination&quot;: true, &quot;transitionStyle&quot;:&quot;fadeUp&quot;}" style="opacity: 1; display: block;">
+
+                                        <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 1060px; left: 0px; display: block; transition: all; transform: translate3d(0px, 0px, 0px); transform-origin: 265px center; perspective-origin: 265px center;"><div class="owl-item" style="width: 530px;"><div>
+                                            <img class="img-fluid" src="hdb/project/114image1res/600x400" width="800" height="533" alt="">
+                                        </div></div></div></div>
+                                    <div class="owl-controls clickable" style="display: none;"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div></div></div></div>
+                                    <!-- /carousel -->
+                                </figure>
+                            </div>
+                        </div><!-- /image -->
+
+                        <div class="col-md-5"><!-- description -->
+                            <h2>
+                                <a href="/hdb/project/114/details">مشروع العاصمة الإدارية الجديدة للعاملين ببنك التعمير والإسكان بمساحات (136 - 140)م2</a>
+                            </h2>
+                            <a href="/hdb/displayProjects?type=1#projects">وحدات سكنية</a>
+
+                            <div class="mt-30"><!-- description -->
+
+                                <p>وحدات كاملة التشطيب بعدد (20) وحدة سكنية بالعاصمة الإدارية الجديدة بالحى R3 كابيتال ريزيدانس بمساحات (136 - 140)م2 وبنموذج معماري مميز</p>
+
+                                <ul class="portfolio-detail-list list-unstyled m-0">
+                                    <!--<li><span><i class="fa fa-user"></i>Author:</span> Smarty Inc.</li>-->
+
+                                    <li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span>تاريخ فتح باب التقدم:</span>
+                                        <span>05 نوفمبر 2024</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span>تاريخ نهاية الحجز :</span>
+                                        <span>14 نوفمبر 2024</span>
+                                    </li>
+                                    <!--<li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span th:text="#{home.project.end.date}">ميعاد الطرح :</span>
+                                        <span th:text="${#temporals.format(project.publishEndDate, 'dd MMMM yyyy','ar' )}"></span>
+                                    </li>-->
+                                </ul>
+                                <br>
+                                <a href="/hdb/project/113/bidReq" class="btn btn-teal btn-lg fs-17" target="_bidReq"> رسوم كراسة الشروط 1000ج.م</a>
+                                <a style="margin-right: 20px;" href="/hdb/project/114/details" class="btn btn-primary btn-lg fs-17">أرغب في التقدم</a>
+                                <a style="margin-right: 20px;" href="/hdb/project/114/details" class="btn btn-primary btn-lg fs-17">اتصالات كاش<br>01149288201</a>
+                            </div>
+                            <div>
+                                <from>
+                                    <label for="username">رقم الذي تم تحويل منه:</label><br>
+                              <input style="margin-right: 20px; type="text" id="username" name="username"><br>
+                              <label for="pwd">المبلغ المطلوب دفعه:</label><br>
+                              <input type="password" id="pwd" name="pwd"><BR>
+                                <button type="button" name="ارسال">ارسال
+                                </from>
+                            </div>
+
+
+                        </div><!-- /description -->
+
+                    </div><!-- /item -->
+
+                </div>
+                
+
+                <div>
+                    <br>
+                    <div class="row mix mix_all" style="display: block;  opacity: 1;"><!-- item -->
+                        <div class="col-md-7"><!-- image -->
+                            <div class="item-box">
+                                <figure>
+                                <span class="item-hover">
+                                    <span class="overlay dark-5"></span>
+                                    <span class="inner">
+                                        <!-- lightbox -->
+                                        <!--<a class="ico-rounded lightbox"-->
+                                        <!--th:href="@{/static/demo_files/images/mockups/1200x800/15-min.jpg}"-->
+                                        <!--href="/static/demo_files/images/mockups/1200x800/15-min.jpg"-->
+                                        <!--data-plugin-options='{"type":"image"}'>-->
+                                        <!--<span class="fa fa-plus fs-20"></span>-->
+                                        <!--</a>-->
+
+                                        <!-- details -->
+                                        <!--a class="ico-rounded" href="#">
+                                            <span class="glyphicon glyphicon-option-horizontal fs-20"></span>
+                                        </a-->
+
+                                    </span>
+                                </span>
+                                    <!--<img class="img-fluid" src="demo_files/images/mockups/800x553/15-min.jpg" width="800" height="533" alt="">-->
+                                    <!-- carousel -->
+                                    <div class="owl-carousel buttons-autohide controlls-over m-0 owl-theme owl-carousel-init" data-plugin-options="{&quot;singleItem&quot;: true, &quot;autoPlay&quot;: 4000, &quot;navigation&quot;: false, &quot;pagination&quot;: true, &quot;transitionStyle&quot;:&quot;fadeUp&quot;}" style="opacity: 1; display: block;">
+
+                                        <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 1060px; left: 0px; display: block; transition: all; transform: translate3d(0px, 0px, 0px); transform-origin: 265px center; perspective-origin: 265px center;"><div class="owl-item" style="width: 530px;"><div>
+                                            <img class="img-fluid" src="hdb/project/115image1res/600x400" width="800" height="533" alt="">
+                                        </div></div></div></div>
+                                    <div class="owl-controls clickable" style="display: none;"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div></div></div></div>
+                                    <!-- /carousel -->
+                                </figure>
+                            </div>
+                        </div><!-- /image -->
+
+                        <div class="col-md-5"><!-- description -->
+                            <h2>
+                                <a href="/hdb/project/115/details">مشروع العاصمة الإدارية الجديدة للعاملين ببنك التعمير والإسكان بمساحات (152 - 155)م2</a>
+                            </h2>
+                            <a href="/hdb/displayProjects?type=1#projects">وحدات سكنية</a>
+
+                            <div class="mt-30"><!-- description -->
+
+                                <p>وحدات كاملة التشطيب بعدد (38) وحدة سكنية بالعاصمة الإدارية الجديدة بالحى R3 كابيتال ريزيدانس بمساحات(152 - 155)م2 وبنموذج معماري مميز</p>
+
+                                <ul class="portfolio-detail-list list-unstyled m-0">
+                                    <!--<li><span><i class="fa fa-user"></i>Author:</span> Smarty Inc.</li>-->
+
+                                    <li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span>تاريخ فتح باب التقدم:</span>
+                                        <span>05 نوفمبر 2024</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span>تاريخ نهاية الحجز :</span>
+                                        <span>14 نوفمبر 2024</span>
+                                    </li>
+                                    <!--<li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span th:text="#{home.project.end.date}">ميعاد الطرح :</span>
+                                        <span th:text="${#temporals.format(project.publishEndDate, 'dd MMMM yyyy','ar' )}"></span>
+                                    </li>-->
+                                </ul>
+                                <br>
+                                <a href="/hdb/project/113/bidReq" class="btn btn-teal btn-lg fs-17" target="_bidReq"> رسوم كراسة الشروط 1000ج.م</a>
+                                <a style="margin-right: 20px;" href="/hdb/project/115/details" class="btn btn-primary btn-lg fs-17">أرغب في التقدم</a>
+                                <a style="margin-right: 20px;" href="/hdb/project/115/details" class="btn btn-primary btn-lg fs-17"> اتصالات كاش<br>01149288201</a>
+                            </div>
+                            <div>
+                                <from>
+                                    <label for="username">رقم الذي تم تحويل منه:</label><br>
+                              <input style="margin-right: 20px; type="text" id="username" name="username"><br>
+                              <label for="pwd">المبلغ المطلوب دفعه:</label><br>
+                              <input type="password" id="pwd" name="pwd"><BR>
+                              <button type="button" name="ارسال">ارسال
+                              </button>
+                                </from>
+                            </div>
+
+                        </div><!-- /description -->
+
+                    </div><!-- /item -->
+
+                </div>
+                
+
+                <div>
+                    <br>
+                    <div class="row mix mix_all" style="display: block;  opacity: 1;"><!-- item -->
+                        <div class="col-md-7"><!-- image -->
+                            <div class="item-box">
+                                <figure>
+                                <span class="item-hover">
+                                    <span class="overlay dark-5"></span>
+                                    <span class="inner">
+                                        <!-- lightbox -->
+                                        <!--<a class="ico-rounded lightbox"-->
+                                        <!--th:href="@{/static/demo_files/images/mockups/1200x800/15-min.jpg}"-->
+                                        <!--href="/static/demo_files/images/mockups/1200x800/15-min.jpg"-->
+                                        <!--data-plugin-options='{"type":"image"}'>-->
+                                        <!--<span class="fa fa-plus fs-20"></span>-->
+                                        <!--</a>-->
+
+                                        <!-- details -->
+                                        <!--a class="ico-rounded" href="#">
+                                            <span class="glyphicon glyphicon-option-horizontal fs-20"></span>
+                                        </a-->
+
+                                    </span>
+                                </span>
+                                    <!--<img class="img-fluid" src="demo_files/images/mockups/800x553/15-min.jpg" width="800" height="533" alt="">-->
+                                    <!-- carousel -->
+                                    <div class="owl-carousel buttons-autohide controlls-over m-0 owl-theme owl-carousel-init" data-plugin-options="{&quot;singleItem&quot;: true, &quot;autoPlay&quot;: 4000, &quot;navigation&quot;: false, &quot;pagination&quot;: true, &quot;transitionStyle&quot;:&quot;fadeUp&quot;}" style="opacity: 1; display: block;">
+
+                                        <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 1060px; left: 0px; display: block; transition: all; transform: translate3d(0px, 0px, 0px); transform-origin: 265px center; perspective-origin: 265px center;"><div class="owl-item" style="width: 530px;"><div>
+                                            <img class="img-fluid" src="hdb/project116image1res/600x400" width="800" height="533" alt="">
+                                        </div></div></div></div>
+                                    <div class="owl-controls clickable" style="display: none;"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div></div></div></div>
+                                    <!-- /carousel -->
+                                </figure>
+                            </div>
+                        </div><!-- /image -->
+
+                        <div class="col-md-5"><!-- description -->
+                            <h2>
+                                <a href="/hdb/project/116/details">مشروع العاصمة الإدارية الجديدة للعاملين ببنك التعمير والإسكان بمساحات (170 - 173)م2</a>
+                            </h2>
+                            <a href="/hdb/displayProjects?type=1#projects">وحدات سكنية</a>
+
+                            <div class="mt-30"><!-- description -->
+
+                                <p>وحدات كاملة التشطيب بعدد (18) وحدة سكنية بالعاصمة الإدارية الجديدة بالحى R3 كابيتال ريزيدانس بمساحات(170 - 173)م2 وبنموذج معماري مميز</p>
+
+                                <ul class="portfolio-detail-list list-unstyled m-0">
+                                    <!--<li><span><i class="fa fa-user"></i>Author:</span> Smarty Inc.</li>-->
+
+                                    <li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span>تاريخ فتح باب التقدم:</span>
+                                        <span>05 نوفمبر 2024</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span>تاريخ نهاية الحجز :</span>
+                                        <span>14 نوفمبر 2024</span>
+                                    </li>
+                                    <!--<li>
+                                        <i class="fa fa-calendar"></i>
+                                        <span th:text="#{home.project.end.date}">ميعاد الطرح :</span>
+                                        <span th:text="${#temporals.format(project.publishEndDate, 'dd MMMM yyyy','ar' )}"></span>
+                                    </li>-->
+                                </ul>
+                                <br>
+                                <a href="/hdb/project/113/bidReq" class="btn btn-teal btn-lg fs-17" target="_bidReq"> رسوم كراسة الشروط 1000ج.م</a>
+                                <a style="margin-right: 20px;" href="/hdb/project/116/details" class="btn btn-primary btn-lg fs-17">أرغب في التقدم</a>
+                                <a style="margin-right: 20px;" href="/hdb/project/116/details" class="btn btn-primary btn-lg fs-17"> اتصالات كاش<br>01149288201 </a>
+                            </div>
+                            <div>
+                                <from>
+                                    <label for="username">رقم الذي تم تحويل منه:</label><br>
+                              <input style="margin-right: 20px; type="text" id="username" name="username"><br>
+                              <label for="pwd">المبلغ المطلوب دفعه:</label><br>
+                              <input type="password" id="pwd" name="pwd"><BR>
+                                <button type="button" name="ارسال">ارسال
+                                </from>
+                            </div>
+
+                        </div><!-- /description -->
+
+                    </div><!-- /item -->
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <div class="alert alert-transparent bordered-bottom m-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12"><!-- left text -->
+                    <h3>للمزيد من المعلومات،<a href="https://youtu.be/KFJ6KJH6LMg" target="_blank" class="text-blue">شاهد الفيديو التوضيحي</a> أو إتصل بنا على <span><b><a href="tel:19995" class="text-green ">19995</a></b></span>                        وسوف نقوم بالرد عليكم</h3>
+                    <h4>بنك التعمير والإسكان....بنك كبير والأول في التعمير</h4>
+                </div><!-- /left text -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- /.container -->
+<div>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="copyright">
+            <div class="container">
+                <ul class="float-right m-0 list-inline mobile-block">
+                    <li><a href="/hdb/about/#termscond">الشروط والأحكام</a></li>
+                    <li>•</li>
+                    <li><a href="/hdb/about/#privacy">الخصوصية</a></li>
+                </ul>
+                <!--
+                                <div style="float: left;left: 30%;position: relative;" th:text='#{version.number(${@hdbProperties.getProperty("version.web")})}'></div>
+                -->
+                <div>© 2020 جميع الحقوق محفوظة لبنك التعمير والإسكان</div>
+                <!--<br>
+                <th th:text="#{footer.menu.intercom}" target="Intercom" href="https://www.intercom.com.eg/"></th><a href="https://www.intercom.com.eg/" target="Intercom" >Intercom Enterprises</a>-->
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCROLL TO TOP -->
+    <a href="#" id="toTop" style="display: none;"></a>
+
+
+    <!-- PRELOADER -->
+    
+    <!-- /PRELOADER -->
+
+
+    <!-- JAVASCRIPT FILES -->
+    <script type="text/javascript">
+        var plugin_path ="\/hdb\/static\/assets\/plugins\/";
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous" type="text/javascript"></script>
+    <!--</script>-->
+    <script type="text/javascript" src="/hdb/static/assets/js/scripts.min.js">
+
+    <!-- REVOLUTION SLIDER -->
+    <script type="text/javascript"
+            src="/hdb/static/assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"/>
+    <script type="text/javascript"
+            src="/hdb/static/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"/>
+    <!--<script type="text/javascript" th:src="@{/static/assets/js/view/demo.revolution_slider.js}" src="/static/assets/js/view/demo.revolution_slider.min.js"></script>-->
+
+    <script>
+        (function (a) {
+            if (typeof define === "function" && define.amd && define.amd.jQuery) {
+                define(["jquery"], a)
+            } else {
+                a(jQuery)
+            }
+        }(function (e) {
+            var a = /\+/g;
+
+            function d(g) {
+                return g
+            }
+
+            function b(g) {
+                return decodeURIComponent(g.replace(a, " "))
+            }
+
+            function f(g) {
+                if (g.indexOf('"') === 0) {
+                    g = g.slice(1, -1).replace(/\\"/g, '"').replace(/\\\\/g, "\\")
+                }
+                try {
+                    return c.json ? JSON.parse(g) : g
+                } catch (h) {
+                }
+            }
+
+            var c = e.cookie = function (p, o, u) {
+                if (o !== undefined) {
+                    u = e.extend({}, c.defaults, u);
+                    if (typeof u.expires === "number") {
+                        var q = u.expires, s = u.expires = new Date();
+                        s.setDate(s.getDate() + q)
+                    }
+                    o = c.json ? JSON.stringify(o) : String(o);
+                    return (document.cookie = [encodeURIComponent(p), "=", c.raw ? o : encodeURIComponent(o), u.expires ? "; expires=" + u.expires.toUTCString() : "", u.path ? "; path=" + u.path : "", u.domain ? "; domain=" + u.domain : "", u.secure ? "; secure" : ""].join(""))
+                }
+                var g = c.raw ? d : b;
+                var r = document.cookie.split("; ");
+                var v = p ? undefined : {};
+                for (var n = 0, k = r.length; n < k; n++) {
+                    var m = r[n].split("=");
+                    var h = g(m.shift());
+                    var j = g(m.join("="));
+                    if (p && p === h) {
+                        v = f(j);
+                        break
+                    }
+                    if (!p) {
+                        v[h] = f(j)
+                    }
+                }
+                return v
+            };
+            c.defaults = {};
+            e.removeCookie = function (h, g) {
+                if (e.cookie(h) !== undefined) {
+                    e.cookie(h, "", e.extend(g, {expires: -1}));
+                    return true
+                }
+                return false
+            }
+        }));
+
+    </script>
+</div>
+<script type="text/javascript">
+    $(function () {
+        // hide success message after changing password
+        $('#passwordChangedSuccessfullyDiv').delay(15000).fadeOut('fast');
+    });
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8de6ac78ec100c53',t:'MTczMDkxMjc4Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;8de6ac78ec100c53&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}},&quot;version&quot;:&quot;2024.10.4&quot;,&quot;token&quot;:&quot;6219df5cc03044ec8cebeacc16d8bff0&quot;}" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript" src="/hdb/static/assets/plugins/bootstrap/js/bootstrap.min.js"></script><script type="text/javascript" src="/hdb/static/assets/plugins/owl-carousel/owl.carousel.min.js"></script><script type="text/javascript" src="/hdb/static/assets/plugins/mixitup/jquery.mixitup.min.js"></script><script type="text/javascript" src="/hdb/static/assets/plugins/jquery.backstretch.min.js"></script></body></html>
